@@ -55,4 +55,38 @@
 
 
 ## PART 2:MITM IN NTUT
+![image](https://user-images.githubusercontent.com/69759142/170320907-32786e75-fc8c-47a4-8983-e92bfd7e9e93.png)
+
+### 執行錯誤登入流程
+![image](https://user-images.githubusercontent.com/69759142/170321044-85405c97-3d10-4ebb-b5ff-151f3b3b214b.png)
+
+啟動Bash script
+
+![image](https://user-images.githubusercontent.com/69759142/170322214-c7ddb5be-15b0-4af1-b2ac-d72427284b8f.png)
+
+輸入錯誤帳號密碼
+
+![image](https://user-images.githubusercontent.com/69759142/170322313-838871d4-ee03-4644-bd72-fe85831fe89e.png)
+
+登入失敗
+
+![image](https://user-images.githubusercontent.com/69759142/170322405-a9e12154-0c4a-4aa9-b183-81928cb6e12e.png)
+
+script有獲得傳輸中的明文密碼
+
+### 執行正常登入流程
+
+![image](https://user-images.githubusercontent.com/69759142/170322667-954c988c-a166-44bf-90d2-9d1f31f5bf1a.png)
+
+輸入正確帳號密碼
+
+![image](https://user-images.githubusercontent.com/69759142/170322747-20bb2956-67a2-4de9-84a9-33e6d649dc8a.png)
+
+登入成功畫面
+
+![image](https://user-images.githubusercontent.com/69759142/170322858-9f5b6a65-1f8f-4d81-91e8-1b96e6a0e034.png)
+
+script有獲得正確的傳輸中明文密碼
+
+
 
