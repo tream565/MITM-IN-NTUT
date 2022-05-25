@@ -24,3 +24,4 @@ kill -9 $PID1 $PID2
 echo 0 > /proc/sys/net/ipv4/ip_forward
 
 exit 0
+
