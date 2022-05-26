@@ -64,7 +64,7 @@
 
 啟動Bash script
 
-![image](https://user-images.githubusercontent.com/69759142/170322214-c7ddb5be-15b0-4af1-b2ac-d72427284b8f.png)
+![image](https://user-images.githubusercontent.com/69759142/170433822-cd1581f8-2cda-4e5c-8e0d-2f074696824b.png)
 
 輸入錯誤帳號密碼
 
@@ -78,11 +78,11 @@ script有獲得傳輸中的明文密碼
 
 ### 執行正常登入流程
 
-![image](https://user-images.githubusercontent.com/69759142/170322667-954c988c-a166-44bf-90d2-9d1f31f5bf1a.png)
+![image](https://user-images.githubusercontent.com/69759142/170433902-ff75aada-93bf-417f-a8a0-ba85b8fc5041.png)
 
 輸入正確帳號密碼
 
-![image](https://user-images.githubusercontent.com/69759142/170322747-20bb2956-67a2-4de9-84a9-33e6d649dc8a.png)
+![image](https://user-images.githubusercontent.com/69759142/170433956-568d8fa5-8f34-4e89-a5e3-5a2e88a981a1.png)
 
 登入成功畫面
 
