@@ -90,5 +90,4 @@ script有獲得傳輸中的明文密碼
 
 script有獲得正確的傳輸中明文密碼
 
-github連接:https://github.com/tream565/MITM-example
 
