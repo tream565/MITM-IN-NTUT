@@ -1,0 +1,2 @@
+openssl req -new x509 -keyout ca.key -out ca.crt
+openssl rsa -in ca.key -out ca.key.unsecure
