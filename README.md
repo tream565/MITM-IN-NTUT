@@ -55,6 +55,11 @@
 
 
 ## PART 2:MITM IN NTUT
+### 利用openssl生成密鑰與憑照
+openssl rsa -in ca.key -out ca.key.unsecure
+openssl req -new x509 -keyout ca.key -out ca.crt
+安裝ca.crt到受信任的跟憑證
+
 ### Script
 ![image](https://user-images.githubusercontent.com/69759142/170325655-00694699-5293-4286-83b0-0bbc4052e367.png)
 
@@ -90,4 +95,7 @@ script有獲得傳輸中的明文密碼
 
 script有獲得正確的傳輸中明文密碼
 
-
+### 無法獲得明文密碼則使用ezblowfish encrypt&decrypt.txt內的工具
+![image](https://user-images.githubusercontent.com/69759142/198824482-bd8318f2-1dc6-48e8-b418-34cc8b6ab3d2.png)
+key為帳號
+data為{ENCODE}後的內容
