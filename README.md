@@ -16,7 +16,7 @@
 
 ### Script
 
-![image](https://user-images.githubusercontent.com/69759142/168472356-4beb570f-59fb-4ecf-b2b4-1cf2bed2c8ae.png)
+![image](https://user-images.githubusercontent.com/69759142/198824579-6451d386-2aa3-4c33-b848-24372953fc0a.png)
 
 3~6行為判斷權限
 
@@ -24,9 +24,15 @@
 
 13為設定將封包進行轉發
 
-15~18使用arpspoof進行攻擊並將Process ID記錄
+14~15設定防火牆規則，將請求80PORT 443PORT的封包分別轉送到8080、8443
 
-23為結束PID1、PID2的Process
+17~20使用arpspoof進行攻擊並將Process ID記錄
+
+22啟動sslsplit進行中間人攻擊
+
+29為結束PID1、PID2與PID3的Process
+
+30刪除防火牆規則
 
 ### Normal condition
 利用tcpdump發現在正常情況下區網內的其他電腦進行ping時其他電腦不會收到封包
