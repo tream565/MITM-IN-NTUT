@@ -63,9 +63,9 @@
 ## PART 2:MITM IN NTUT
 ### 利用openssl生成密鑰與憑照
 
-openssl rsa -in ca.key -out ca.key.unsecure
+openssl genrsa -out ca.key 2048
 
-openssl req -new x509 -keyout ca.key -out ca.crt
+openssl req -new -x509 -key ca.key -out ca.crt
 
 安裝ca.crt到受信任的跟憑證
 
